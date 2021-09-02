@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mii Mockup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/mii.css" />
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="assets/images/icon-image/favicon.png" />
+
+    <link rel="stylesheet" href="assets/vendor/slick/css/slick-theme.min.css">
+    <link rel="stylesheet" href="assets/vendor/slick/css/slick.min.css">
+
+</head>
+
+<body>
+
+    <!-- //id for smooth scroll home-->
+    <div id="homepage"></div>
+
+
+    <div id="mncl-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#homepage"><img src="assets/images/starproimage.png"
+                        class="logo-mii" /></a>
+                <button id="sidebarCollapse" class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbar-sidebar" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <span<i class="fas fa-bars" style="color: white;"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-sidebar">
+
+                    <div id="dismiss">
+                        <i class="fas fa-times"></i>
+                    </div>
+
+                    <ul class="navbar-nav mx-auto">
+
+                        <div class="mobile-search">
+                            <form class="form-inline">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                <button class="search-btn-custom" type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+
+                        <li class="nav-item active">
+                            <a class="nav-link txt-bluedark" href="#homepage">Home </a>
+                        </li>
+
+                        <li class="nav-item nav-desktop">
+                            <a class="nav-link txt-bluedark" href="#newshighlight">Infotaiment</a>
+                        </li>
+
+                        <!-- <li class="nav-item nav-mobile">
+                            <a class="nav-link txt-bluedark" href="#newshighlight_mobile">News</a>
+                        </li> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link txt-bluedark" href="#storemncl">Event</a>
+                        </li>
+
+                        <li class="nav-item dropdown jqui-slide">
+                            <a class="nav-link txt-bluedark dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About Us
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item txt-bluedark" href="#">Company Overview</a>
+                                <a class="dropdown-item txt-bluedark" href="#">Corporate Vision, Mission &
+                                    Values</a>
+                                <a class="dropdown-item txt-bluedark" href="#">Corporate Structure</a>
+                                <a class="dropdown-item txt-bluedark" href="#">Awards & Achievement</a>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link txt-bluedark" href="#storemncl">Contact Us</a>
+                        </li>
+
+
+                        <li class="nav-item resp-nav-ex">
+                            <div class="inline-item"
+                                style="display: inline-flex; display: inline-flex; padding-top: 7px;">
+                                <span><a class="nav-link txt-bluedark" href="#"
+                                        style="padding: 0px 15px;">Carrier</a></span>
+                                <span><a class="nav-link txt-bluedark search-nav" data-toggle="modal"
+                                        data-target="#modal-search" style="padding: 0px 15px;">
+                                        <i class="fas fa-search"></i></a></span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Search Bar Modal -->
+        <div class="modal fade" id="modal-search" tabindex="-1" aria-labelledby="modal-search-bar" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form>
+                            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                            <button class=" search-btn-custom" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- END Search Bar Modal -->
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"  style="width: 100%;"><img src="assets/images/sdd.png" class="img-fluid" style="width: 100%;"></div>
+                        <div class="swiper-slide"  style="width: 100%;"><img src="assets/images/dummy3.png" class="img-fluid"  style="width: 100%;"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="shadow-white-1">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="continer">
+            <div class="row">
+                <div class="col-12">
+                        
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+
+                <div class="col-md-4">
+
+                </div>
+
+                <div class="col-md-4">
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
+
+
+<script src="assets/vendor/jquery/jquery.min.js" type="text/javascript"></script>
+<script src="assets/vendor/popper/popper.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+<script src="assets/js/navbar-mncl.js" type="text/javascript"></script>
+<script src="assets/js/nav-animation.js" type="text/javascript"></script>
+<script src="assets/js/mncl.js"></script>
+
+
+<!-- Slider--->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+        },
+    });
+</script>
